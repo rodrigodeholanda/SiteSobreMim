@@ -1,0 +1,186 @@
+/* -------------------------------------------------------------------------------------------*/
+/* Estilização conteiners gerais que serão padrões no layout*/
+/* -------------------------------------------------------------------------------------------*/
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(112, 13, 43, 0.37);
+    margin: 30px auto;
+}
+
+main {
+    background-color: white;
+    border-top: 30px solid white;
+    border-left: 50px solid white;
+    border-bottom: 100px solid white;
+    border-right: 30px solid white;
+    box-shadow: 0em 0em 20px 1px rgba(253, 26, 94, 0.267);
+    width: fit-content;
+    width: 1300px;
+    margin: auto;
+    
+}
+header {
+    width: auto;
+    display: flex;
+    position:relative;
+}
+
+footer {
+    display: flex;
+    position: relative;
+    top: 80px;
+    margin-left: 20px;
+}
+
+/* -------------------------------------------------------------------------------------------*/
+/* Estilização classes e tags gerais dentro das paginas*/
+/* -------------------------------------------------------------------------------------------*/
+
+
+.logo { /* Estilização container Logo dentro de todas as paginas*/
+    position: relative;
+}
+.logo img { /* Estilização imagem logo dentro de todas as paginas*/
+    width: 300px;
+    padding: 0;
+    margin: 0;
+}
+.redeSocial { /* Estilização Container RedeSocial dentro de todas as paginas*/
+    width: auto;
+    display: flex;
+    position: relative;
+    left: 130px;
+    align-items: center;
+}
+
+.redeSocial a {/* Estilização links das RedeSociais dentro de todas as paginas*/
+    margin: 5px;
+}
+
+.conteudoImgAside, .conteudoImgContato { /* Estilização do container section que está em todas as paginas*/
+    display: flex;
+    margin-top: 40px;
+    width: auto;
+}
+.menu {/* Estilização Container Menu em todas as paginas*/
+    display: flex;
+    position: relative;
+    left: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {/* Estilização da lista dentro do container Menu de todas as paginas*/
+    padding: 0;
+    width: fit-content;
+    margin: 10px;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+}
+
+li a {/* Estilização da dos links dentro das listas que estão no container Menu de todas as paginas*/
+    text-decoration: none;
+    color: rgba(253, 26, 94, 0.74);
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+a:hover {/* Estilização da dos links ao passar o mouse em cima, dentro das listas que estão no container Menu de todas as paginas*/
+    text-decoration: underline;
+    color: rgba(253, 26, 94);
+}
+.conteudo, .conteudoContato, section p {/* Estilização de todos os paragrafos presentes dentro da classe 'conteudo' e 'conteudoContato', e de todos os paragrafos presentes na tag <section> em todas as paginas*/
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    margin-top:40px;
+}
+.conteudo p {/* Estilização apenas dos paragrafos presentes dentro da classe 'conteudo' em todas as paginas*/
+    width: 80%;
+}
+
+/* -------------------------------------------------------------------------------------------*/
+/* Estilização pagina Index*/
+/* -------------------------------------------------------------------------------------------*/
+
+.imgAside { /* Estilização Container Aside na pagina Index*/
+    display: flex;
+    position: relative;
+    right: 180px;
+    top: 90px;
+    height: 250px;
+}
+
+#imgIndex {/* Estilização da 'Img Index' dentro da pagina Index*/
+    border-radius: 20px;
+    margin: 80px 0px 0px 180px;
+}
+
+/* -------------------------------------------------------------------------------------------*/
+/* Estilização pagina Portifolio*/
+/* -------------------------------------------------------------------------------------------*/
+
+
+
+#imgAsidePortifolio img{ /* Estilização da imagem atraves do id no Aside da pagina Portifolio*/
+    display: flex;
+    position: relative;
+    right: 50px;
+    top: 30px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.ImagensPortifolio div , .ImagensPortifolio p { /* Estilizar as divs presentes dentro da classe, bem como dos paragrafos presentes dentro da classe na pagina Portifolio*/
+    display:flex;
+    justify-content: center;
+    text-decoration: underline;
+    padding: 20px 0px;
+}
+
+/* -------------------------------------------------------------------------------------------*/
+/* Estilização pagina Formação*/
+/* -------------------------------------------------------------------------------------------*/
+
+#imgAsideFormacao img {/* Estilização da imagem atraves do id no Aside da pagina Formação*/
+    display: flex;
+    position: relative;
+    right: 50px;
+    top: 110px;
+    border-radius: 10px;
+}
+
+/* -------------------------------------------------------------------------------------------*/
+/* Estilização pagina Contato*/
+/* -------------------------------------------------------------------------------------------*/
+
+.conteudoImgContato {/* Estilizar o Container section da pagina contatos*/
+    background: url(Imagem_BackGround_Contato.png) no-repeat;
+    border-radius: 15px;
+    height: 420px;
+    box-shadow: 0em 0em 20px 1px rgb(25, 140, 165);
+}
+
+.conteudoContato h1, .conteudoContato p { /* Estilizar o título e o paragrafo dentro do Container da pagina contatos*/
+    margin-left: 20px;
+    margin-top: 0;
+    padding: 10px;
+    font-size: 20px;
+    background-color:rgba(240, 255, 255, 0.411);
+    box-shadow: 0em 0em 20px 1px rgba(107, 216, 240, 0.473);
+    border-radius: 15px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+form { /* Estilizar o Formulário dentro do Container da pagina contatos*/
+    padding: 20px;
+    box-shadow: 0em 0em 20px 1px rgba(107, 216, 240, 0.473);
+    background-color:rgba(240, 255, 255, 0.411);
+    border-radius: 15px;
+    width: 300px;
+    margin: 0px 100px;
+}
