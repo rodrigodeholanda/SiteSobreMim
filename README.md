@@ -1,0 +1,1 @@
+Projeto da Faculdade onde criei um site sobre mim, utilizando apenas HTML e CSS. Nesse site são mostradas fotos de landpages que já desenvolvi, bem como informações sobre minhas formações, experiências profissionais e redes sociais.
